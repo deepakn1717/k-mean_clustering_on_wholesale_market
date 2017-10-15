@@ -30,6 +30,8 @@ wss <- (nrow(mydata)-1)*sum(apply(mydata,2,var))
 for (i in 2:15) wss[i] <- sum(kmeans(mydata,centers=i)$withinss)
 plot(1:15, wss, type="b", xlab="Number of Clusters", ylab="Within groups sum of squares")
 ```
+![scree plot](https://user-images.githubusercontent.com/11747667/31588166-2f1af0d2-b1bc-11e7-982a-82cce019e21b.JPG)
+
 ## Set the random seed value, to reproduce the same result
 ```
 set.seed(1001)
