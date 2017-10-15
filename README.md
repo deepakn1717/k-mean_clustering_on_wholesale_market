@@ -47,3 +47,4 @@ Customer_cluster_Final <- cbind(Customer_Data, Cluster_Number = clustercustomer$
 names(Customer_cluster_Final)
 ```
 # Profiling of clusters 
+![profiling](https://user-images.githubusercontent.com/11747667/31588182-6365b50c-b1bc-11e7-81f8-8b01625436ee.JPG)
